@@ -1,0 +1,7 @@
+Django==4.2.7
+djangorestframework==3.14.0
+pandas==2.1.3
+python-dotenv==1.0.0
+scikit-learn==1.3.2
+sentence-transformers==2.2.2
+corsheaders==4.2.0

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🏡 Property Search Assistant</h1>
+            <p>Find your dream home in Pune & Mumbai</p>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        
+        <div class="suggestions-container">
+            <h3>💡 Try these searches:</h3>
+            <div class="suggestions-buttons" id="suggestions">
+                <!-- Suggestions will be added by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                class="chat-input" 
+                id="chat-input" 
+                placeholder="Ask about properties like '2BHK flat in Pune under ₹80L'..."
+            >
+            <button class="send-button" id="send-button">
+                Send ↗
+            </button>
+        </div>
+        
+        <div class="loading-spinner" id="loading-spinner">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
