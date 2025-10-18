@@ -8,6 +8,5 @@
 - Real-time responses to FAQs about buying/renting properties.
 - Lightweight and fast-loading interface.
 
-## Project Structure
-The repository is organized as follows:
+
 
